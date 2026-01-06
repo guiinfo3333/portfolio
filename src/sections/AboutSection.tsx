@@ -465,26 +465,6 @@ export function AboutSection() {
                     Em <strong>2017</strong>, iniciei meus estudos na <strong>Escola Creusa do Carmo Rocha</strong>, onde tive meu primeiro contato com <strong>programação</strong> por meio de <strong>Portugol</strong> e conceitos fundamentais de <strong>lógica</strong>, além de conhecimentos em <strong>hardware</strong>, como componentes e manutenção de computadores. Essa experiência marcou o início da minha trajetória na <strong>tecnologia</strong> e despertou meu interesse e paixão pela área de <strong>desenvolvimento de software</strong>. Aprendi também algumas tecnologias como HTML, CSS, JAVASCRIPT e algumas IDES como VSCODE.
                   </p>
                   <div className="timeline-tech-icons">
-                    <svg
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                      role="img"
-                      aria-label="Portugol"
-                    >
-                      <rect x="2" y="2" width="28" height="28" rx="6" fill="none" stroke="currentColor" strokeWidth="2" />
-                      <text
-                        x="16"
-                        y="19"
-                        textAnchor="middle"
-                        fontSize="10"
-                        fontWeight="700"
-                        fill="currentColor"
-                        fontFamily="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-                      >
-                        PTG
-                      </text>
-                    </svg>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
@@ -507,10 +487,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
                   </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Repo. do projeto java (Calculadora) ♦</span>
-                    <span>♦ Projeto java (Calculadora) ♦</span>
-                  </div>
                 </div>
               </div>
 
@@ -529,11 +505,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server" />
                   </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Repo. I do Estágio ♦</span>
-                    <span>♦ Repo. II do Estágio ♦</span>
-                    <span>♦ Repo. III do Estágio ♦</span>
-                  </div>
                 </div>
               </div>
 
@@ -549,12 +520,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                   <div className="timeline-tech-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" />
-                  </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Repo. curso Vue js ♦</span>
-                    <span>♦ Repo. I curso GO ♦</span>
-                    <span>♦ Repo. II curso GO ♦</span>
-                    <span>♦ Repo. estudo Electron JS ♦</span>
                   </div>
                 </div>
               </div>
@@ -572,13 +537,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Go" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
-                  </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Repo. I curso Ruby ♦</span>
-                    <span>♦ Repo. II curso Ruby ♦</span>
-                    <span>♦ Repo. III curso Ruby ♦</span>
-                    <span>♦ Repo. curso Ruby on Rails ♦</span>
-                    <span>♦ Certificado Flutter ♦</span>
                   </div>
                 </div>
               </div>
@@ -601,11 +559,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="iOS" />
                   </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Certificado Elixir ♦</span>
-                    <span>♦ Certificado Elixir com Phoenix ♦</span>
-                    <span>♦ Certificado GopherCon 2022 ♦</span>
-                  </div>
                 </div>
               </div>
 
@@ -626,10 +579,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
                   </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Repositórios da formação Android + Kotlin ♦</span>
-                    <span>♦ Repositório React JS ♦</span>
-                  </div>
                 </div>
               </div>
 
@@ -645,12 +594,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                   <div className="timeline-tech-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-                  </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Certificado Docker ♦</span>
-                    <span>♦ Certificado UI & UX Adobe XD ♦</span>
-                    <span>♦ Certificado UI & UX Figma ♦</span>
-                    <span>♦ Certificado iOS nativo ♦</span>
                   </div>
                 </div>
               </div>
@@ -668,12 +611,6 @@ No <strong>segundo ano</strong>, aprofundei meus conhecimentos em <strong>Progra
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="Pipelines" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg" alt="APIs" />
-                  </div>
-                  <div className="timeline-year-links">
-                    <span>♦ Certificado React JS ♦</span>
-                    <span>♦ Certificado TypeScript ♦</span>
-                    <span>♦ Certificado Django ♦</span>
-                    <span>♦ Certificado SpringBoot ♦</span>
                   </div>
                 </div>
               </div>
