@@ -21,7 +21,7 @@ export function AboutSection() {
 
       <div className="about-card">
         <header className="about-hero">
-          <img className="about-avatar" src="/photo_perfil.jpeg" alt="Antônio Guilherme" />
+          <img className="about-avatar" src="/photo_perfil.png" alt="Antônio Guilherme" />
           <div className="about-info">
             <h1 className="about-name">Antônio Guilherme</h1>
             <p className="about-role">DESENVOLVEDOR FULL STACK</p>

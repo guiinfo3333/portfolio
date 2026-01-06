@@ -1,12 +1,84 @@
-:.app {
-  min-height: 100vh;
+.splash-site-link {
+  margin-top: 18px;
+  font-size: 1.08rem;
+  color: #bfc3c9;
+  letter-spacing: 0.04em;
+  text-align: center;
+  user-select: text;
 }
-
 .app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 24px 24px 40px;
   color: #f5f5f5;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px;
+  background: radial-gradient(circle at top, #303337, #121317 55%);
+}
+
+.splash-content {
+  max-width: 980px;
+  width: 100%;
+  text-align: center;
+}
+
+.splash-quote {
+  margin: 0;
+  font-size: clamp(1.1rem, 2.4vw, 1.9rem);
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #c6c7cb;
+}
+
+.splash-quote strong {
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+.splash-signature {
+  margin: 14px 0 0;
+  font-size: 1.05rem;
+  color: #c6c7cb;
+}
+
+.splash-signature strong {
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+.splash-progress {
+  margin: 46px auto 0;
+  max-width: 720px;
+  height: 14px;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #26292f;
+  border: 1px solid #474a52;
+}
+
+.splash-progress-bar {
+  height: 100%;
+  background-color: #3283ed;
+  width: 0;
+  transition: width 0.2s ease;
+}
+
+.splash-progress-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #c6c7cb;
 }
 
 .app-header {
@@ -243,7 +315,7 @@
   width: 110px;
   height: 140px;
   border-radius: 16px;
-  background-image: url('/profile.jpeg');
+  background-image: url('/photo_perfil.png');
   background-size: cover;
   background-position: center;
   background-color: #14161b;
@@ -727,6 +799,9 @@
   flex-direction: column;
   gap: 0;
   margin-top: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
 }
 
 .about-accordion {
@@ -734,6 +809,7 @@
   border: none;
   border-radius: 0;
   padding: 0;
+  /* Remove bottom border-radius para não sobrescrever o container arredondado */
 }
 
 .about-accordion + .about-accordion {
